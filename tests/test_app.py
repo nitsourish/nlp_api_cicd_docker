@@ -9,9 +9,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 from flask import Flask, request
 
-pipe_path = '../models/Predpipeline.pkl'
-model_path = '../models/clf.pkl'
-tf_idf_path = '../models/tf_idf.pkl'
+pipe_path = './models/Predpipeline.pkl'
+model_path = './models/clf.pkl'
+tf_idf_path = './models/tf_idf.pkl'
 
 def test_spamhampredict():
     inp1 = {"text":"You are a winner YOU have been specially selected 2 receive $1000 or a 4 holiday flights inc speak to a live operator 2 claim Win and Lottery"}
