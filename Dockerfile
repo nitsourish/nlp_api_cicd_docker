@@ -5,4 +5,4 @@ RUN cd /app && \
 ADD . /app
 WORKDIR /app
 ENTRYPOINT ["python"]
-CMD ["app1.py"]
+CMD ["app.py"]
