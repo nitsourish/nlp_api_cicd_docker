@@ -1,0 +1,7 @@
+Flask==2.2.2
+Marshmallow==3.17.1
+Flask-Marshmallow==0.14.0
+pandas==1.4.3
+scikit-learn == 1.1.2
+tensorflow == 2.10.0
+requests == 2.25.1
