@@ -1,7 +1,5 @@
 import sys
 import os
-sys.path.append('D:/learning_practice/git_projects/spam_classifier_api_docker/src')
-os.chdir('D:/learning_practice/git_projects/spam_classifier_api_docker/src')
 sys.executable
 from src.model import spam_ham_predict
 from src.prediction_pipeline import data_process,feature_extraction,prediction
